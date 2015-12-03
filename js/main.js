@@ -5,13 +5,14 @@
     $(".menu").css("white");
   }
 
-  $()
-
   function menuClose() {
     $("nav").hide("fast");
     $(".menu").css("yellow");
     
   }
+
+
+//Google Map Contattaci Page
 
 function initialize(){
   var mapOptions = {

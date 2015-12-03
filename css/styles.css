@@ -54,7 +54,7 @@ body {
     font-size: 15px;
     position: absolute;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .headerpages {
@@ -200,23 +200,24 @@ img {
   }
 
 .footer {
-  background-color: #212121;
-  position: absolute;
-  padding: 40px 20px 40px 20px;
+  background-color: black;
+  padding: 30px 20px 30px 20px;
   margin: 0;
+  float: left;
   width: 100%;
 
 }
 
 .wrapper {
   float: left;
-  font-color: white;
+  color: white;
   margin: 50px;
 
 }
 
 .social {
-  width: 500px;
+  width: 550px;
+  margin-top: 2em;
   float: right;
   display: block;
 
@@ -263,7 +264,7 @@ form {
 
     .menu {
       opacity: 1;
-      color: yellow;
+      color: white;
       float: right;
       margin-bottom: 1em;
       margin-right: 1em;
@@ -271,20 +272,19 @@ form {
       
     }
 
-    .tagline {
+    #tagline {
       width: 100%;
       height: 60%; 
-      font-size: 1em; 
+      font-size: 4em; 
+      margin: 0;
     }
 
     .tag2 {
-      height: 5em;
-      overflow: auto;
+      padding: 0.5em;
 
     }
 
     #amici {
-      width: 100%;
       font-size: 1em;
 
     }
@@ -325,20 +325,50 @@ form {
     .social {
       width: 100%;
       float: left;
+      margin-top: 0.5em;
+
+    }
+
+    .icons {
+      float: right;
 
     }
 
     .forms {
       padding: 0;
       float: right;
-      clear: left;
 
     }
 
     .wrapper {
       width: 100%;
+      float: right;
+      margin: 1em;
+      padding-left: 9em;
+
+    }
+
+    .maphalf {
+      width: 100%;
       float: left;
 
+    }
+
+    #map {
+      margin: 5 0.5 0.5 0.5em;
+      float: left;
+      width: 80%;
+
+    }
+
+    .contactext {
+      width: 100%;
+      float: left;
+      margin: 1em;
+    }
+
+    .footer {
+      padding: 2em;
     }
 
 
