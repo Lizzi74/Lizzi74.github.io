@@ -22,6 +22,11 @@ body {
 
 }
 
+.fullscreen-bg_video {
+  width: 100%;
+
+}
+
 #map {
   border: 1px solid black;
   width: 400px;
