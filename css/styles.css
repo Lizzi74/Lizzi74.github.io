@@ -17,6 +17,11 @@ body {
   color: #212121;
 }
 
+#videobackground {
+  width: 100%;
+
+}
+
 #map {
   border: 1px solid black;
   width: 400px;
